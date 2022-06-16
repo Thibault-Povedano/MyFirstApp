@@ -5,6 +5,8 @@ export interface User {
   element:boolean;
   quote: string;
   photo: string;
+  show: string;
+  hide: string;
 }
 
 

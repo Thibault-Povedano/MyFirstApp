@@ -11,7 +11,7 @@
 <input [(ngModel)]="user.quote" type="texte" value="{{user.quote}}">
 
 <div>
-<button (click)="toggleMyAge()" > Cacher mon âge </button>
-<p *ngIf="user.element === true" class="ng-hide">{{user.age}} ans</p>
+<button (click)="toggleMyAge()" > {{user.show}} mon âge </button>
+<p *ngIf="user.element" class="ng-hide">{{user.age}} ans</p>
 </div>
 

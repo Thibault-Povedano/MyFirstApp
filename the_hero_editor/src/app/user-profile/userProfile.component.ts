@@ -11,6 +11,8 @@ export class UserProfilComponent implements OnInit {
   firstName : 'John',
   age : 25,
   element: true,
+  show: "Afficher",
+  hide: "Cacher",
   quote : '',
   photo : 'https://randomuser.me/api/portraits/lego/2.jpg'
   };
@@ -24,5 +26,6 @@ ngOnInit(): void {
 
 toggleMyAge(){
  this.user.element=!this.user.element
+ this.user.element? this.user.show ="Cacher" : this.user.show="Afficher"
   }
 }
