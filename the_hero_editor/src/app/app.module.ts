@@ -4,13 +4,15 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppCreateOnomatopiaComponent } from './app-create-onomatopia/app-create-onomatopia.component';
+import { AppOnomatopoeiasComponent } from './app-onomatopoeias/app-onomatopoeias.component';
 //import { HeroesComponent } from './heroes/heroes.component';
-import { UserProfilComponent } from './user-profile/userProfile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserProfilComponent
+    AppCreateOnomatopiaComponent,
+    AppOnomatopoeiasComponent,
   ],
   imports: [
     BrowserModule,
